@@ -27,7 +27,7 @@ jobs:
           cml-runner \
               --cloud aws \
               --cloud-region us-east \
-              --cloud-type=p2.xlarge \
+              --cloud-type=t2.micro \
               --labels=cml-runner
   run-tutorial:
     needs: [deploy-runner]

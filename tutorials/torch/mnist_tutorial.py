@@ -172,7 +172,7 @@ def main(_):
 
 
 if __name__ == "__main__":
-    # print("MNIST tutorial")
+    print("MNIST tutorial")
     flags.DEFINE_integer("nb_epochs", 8, "Number of epochs.")
     flags.DEFINE_float("eps", 0.3, "Total epsilon for FGM and PGD attacks.")
     flags.DEFINE_bool(
